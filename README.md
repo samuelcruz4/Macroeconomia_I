@@ -4,7 +4,7 @@ Professor: Dr. Fernando Barros Jr
 Monitor: Samuel Levi Alves Cruz
 <br>
 
-
+---
 <br>
 
 Tópicos Adicionais:
