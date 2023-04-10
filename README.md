@@ -7,6 +7,11 @@ Monitor: Samuel Levi Alves Cruz
 ---
 <br>
 
+## Monitoria: Introdução ao Python (Pt. 1)
+[Código Python](https://samuelcruz4.github.io/Macroeconomia_I/MonitoriaMacro_1.py)
+
+<br>
+
 Tópicos Adicionais:
 <br>
 - [Tutorial de instalação do Anaconda (com o Python)](https://github.com/samuelcruz4/Monitoria-Macro-I/files/11130411/Tutorial-Instalacao-Python.pdf
