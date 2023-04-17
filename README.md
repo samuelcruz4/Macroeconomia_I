@@ -7,7 +7,8 @@ Monitor: Samuel Levi Alves Cruz
 ---
 <br>
 
-## Monitoria: Introdução ao Python (Pt. 1)
+## Monitoria I: Introdução ao Python
+[Monitoria I - 17/04](https://samuelcruz4.github.io/Macroeconomia_I/Monitoria2.py)
 [Código Python](https://samuelcruz4.github.io/Macroeconomia_I/MonitoriaMacro_1.py)
 
 <br>
