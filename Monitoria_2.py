@@ -65,8 +65,8 @@ else:
 ''' CRIAÇÃO DE FUNÇÕES '''
 
 # Função simples de soma de dois inputs
-def some(a, b):  # Exigindo 2 argumentos
-    soma = a + b
+def some(x, y):  # Exigindo 2 argumentos
+    soma = x + y
     return soma 
 
 some(10, 15)
@@ -75,16 +75,16 @@ some(45, 13)
 
 # Ou pode ser feito de uma forma mais direta
 
-def some(a, b):  
-    return a + b 
+def mult(a, b):  
+    return a * b 
 
 
-some(15, 46)
-some(5, 82)
+mult(15, 46)
+mult(5, 82)
 
 
 # Função não necessariamente precisa ter algum input
-def erro(): 
+def erro(a): 
  return print("Acesso Negado")
 
 erro()
@@ -107,7 +107,7 @@ def Calcular_Temperatura_Celsius(tempFarenheit): # Note que a vairável "tempFar
 # "return" é o comando para dizer qual é o ouput desta função (graus Celsius)
 
 Calcular_Temperatura_Celsius(68)
-Calcular_Temperatura_Celsius(86)
+Calcular_Temperatura_Celsius(106)
 
 
 # QUIZ: https://www.coursera.org/learn/ciencia-computacao-python-conceitos/exam/mJrGn/funcoes
@@ -153,7 +153,7 @@ print(temperaturaFarenheit, "graus Farenheit é equivalente a",
 perc_pop_nao_vacinada = 1
 meses = 1
 
-while perc_pop_nao_vacinada > 0:
+while perc_pop_nao_vacinada > 0.1:
     perc_pop_nao_vacinada *= 0.9  # Equivalente a perc_pop_nao_vacinada = perc_pop_nao_vacinada * 0.9
     meses += 1                    # Note que o código não para de rodar, pois ele chegar a um valor próx de zero
 print(meses)                      # mas não exatamente zero.   
@@ -179,9 +179,8 @@ crie um c2 = 0.001)'''
 t=0   
 c2 = 0.001
 while c2 < 1:
-    c2 = 2 / (1 + ((1 - 0.9) / (1-0.95) * (0.9/0.95)**t))
     t+=1
-    
+    c2 = 2 / (1 + ((1 - 0.9) / (1-0.95) * (0.9/0.95)**t))
 t-1 
 
 c2 = 2 / (1 + ((1 - 0.9) / (1-0.95) * (0.9/0.95)**14))
