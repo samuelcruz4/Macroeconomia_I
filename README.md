@@ -4,6 +4,9 @@ Professor: Dr. Fernando Barros Jr
 Monitor: Samuel Levi Alves Cruz
 <br>
 
+## Avisos
+Entrega Lista 1 - 24/04 - apenas a 2ª questão. 
+
 ---
 <br>
 
