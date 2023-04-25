@@ -6,12 +6,18 @@ Monitor: Samuel Levi Alves Cruz
 
 ## Avisos
 Entrega Lista 1 - 24/04 - apenas a 2ª questão. 
+Entrega Lista 2 - 08/05 - apenas a 2ª questão. 
 
 ---
 <br>
 
-## Monitoria I: Introdução ao Python
-[Monitoria I - 17/04](https://samuelcruz4.github.io/Macroeconomia_I/Monitoria_2.py)
+## Resolução Lista I:
+[Resolução Lista I](https://samuelcruz4.github.io/Macroeconomia_I/Resolução Lista I - Macro I - Parte I.pdf)
+[Código Python - item f](https://samuelcruz4.github.io/Macroeconomia_I/Lista_1-Python.py)
+
+
+## Monitoria I e II: Introdução ao Python
+[Monitoria I - 17/04 e 24/04](https://samuelcruz4.github.io/Macroeconomia_I/Monitoria_2.py)
 
 [Código Python](https://samuelcruz4.github.io/Macroeconomia_I/MonitoriaMacro_1.py)
 
