@@ -5,7 +5,8 @@ Monitor: Samuel Levi Alves Cruz
 <br>
 
 ## Avisos
-Entrega Lista 1 - 24/04 - apenas a 2ª questão. 
+Entrega Lista 1 - 24/04 - apenas a 2ª questão.
+
 Entrega Lista 2 - 08/05 - apenas a 2ª questão. 
 
 ---
@@ -13,6 +14,7 @@ Entrega Lista 2 - 08/05 - apenas a 2ª questão.
 
 ## Resolução Lista I:
 [Resolução Lista I](https://samuelcruz4.github.io/Macroeconomia_I/Resolução Lista I - Macro I - Parte I.pdf)
+
 [Código Python - item f](https://samuelcruz4.github.io/Macroeconomia_I/Lista_1-Python.py)
 
 
