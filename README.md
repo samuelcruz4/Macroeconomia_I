@@ -19,6 +19,8 @@ Entrega Lista 2 - 08/05 - apenas a 2ª questão.
 [Código Python - item f](https://samuelcruz4.github.io/Macroeconomia_I/Lista_1-Python.py)
 
 
+<br>
+
 ## Monitoria I e II: Introdução ao Python
 [Monitoria I - 17/04 e 24/04](https://samuelcruz4.github.io/Macroeconomia_I/Monitoria_2.py)
 
