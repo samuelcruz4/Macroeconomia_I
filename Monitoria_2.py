@@ -199,7 +199,7 @@ lista[4]  # 5º elemento da lista
 
 
 # para acrescentar um novo elemento, usa-se ".append"
-lista2 = [3]  # Lista vazia
+lista2 = []  # Lista vazia
 lista2.append("oi")
 len(lista2)  # Contém 1 elemento
 lista2[0]  # 1º elemento
@@ -227,7 +227,7 @@ filme
 primos = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61]
 len(primos)
 
-primos[1:2]  # Note que traz um único elemento (é subtraído 1 do último nº)
+primos[0:2]  # Note que traz um único elemento (é subtraído 1 do último nº)
 primos[1:4]  # Traz 3 elementos (é subtraído 1 do último nº)
 
 # Dividindo pela metade
@@ -287,8 +287,14 @@ lista2  # Manteve-se no formato original
 primos
 primos * 2  # Não multiplica por 2 os valores, duplica o tamanho da lista
 
+primos_2 = [i*2 for i in primos]
+primos_2
+
+
 lista1
 lista1 * 3
+
+
 
 
 # Soma de listas
@@ -352,29 +358,6 @@ A[0][:]  # 1ª linha da matriz
 [A[0][1]] + [A[1][1]] + [A[2][1]]  # 2ª coluna da matriz
 # pega o elemento da 2ª coluna de cada linha, transforma em lista e "soma" (listas)
 
-
-# Copiar essa função só para mostrar que seria trabalhoso.
-# Criação de matriz vazia
-def cria_matriz(num_linhas, num_colunas, valor):
-    """ (int, int, valor) -> matriz (lista de listas)
-    Cria e retorna uma matriz com num_linhas linhas e num_coluna colunas
-    em que cada elemento é igual ao valor dado.
-    """
-    matriz = []
-    for i in range(num_linhas):
-        # cria linha i
-        linha = [] # lista vazia
-        for j in range(num_colunas):
-            linha.append(valor)
-        
-        # adiciona linha à matriz
-        matriz.append(linha)
-    
-    return matriz
-
-cria_matriz(5, 8, 0)
-
-
 # PRACTICE QUIZ: https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2/quiz/QUA4k/matrizes
 
 
@@ -400,57 +383,57 @@ A[0, :]  # 1ª linha da matriz
 
 A[:, 1]  # 2ª coluna da matriz
 
-
 # Para criar uma matriz "vazia" (com zeros), usa-se a função zeros() do NumPy
 B = np.zeros([5, 8])
 B
 type(B)
-'''Crie uma variável beta2 = 0.95'''
-'''Crie uma matriz de zeros com 18 linhas e 2 colunas'''
-'''Faça um loop para preencher a primeira linha dessa matriz com valores decrescentes
-a partir do beta2 criado, onde a cada linha se reduza 0.05 da linha anterior'''
-
-
-
-#beta_2 = 0.95
-#matriz = np.zeros([18, 2])
-#for i in range(len(tabela)):
-#    tabela[i, 0] = beta_2 - (i + 1) * 0.05
-
 
 # Para saber as dimensões de uma matrix usamos a função len()
 len(B)  # Número de linhas de B
 len(B[0])  # Número de elementos na 1ª linha de B (ou seja, número de colunas)
 
 
-# Usando Módulo NumPy
-# usando matriz (lista de listas) padrão
-matriz_lista = [[1, 2, 3],
-                [2, 3, 1]]
-matriz_lista * 2
-matriz_lista + 2 # Erro!
+# Preenchendo primeira coluna de uma matriz:
 
-# usando matriz convertida para formato array
-matriz_array = np.array(matriz_lista)
-type(matriz_array)
+for i in range(len(B)):
+    B[i,0] = i+1
+    
+B
 
-matriz_array * 2
-matriz_array + 2 
+# Preenchendo terceira linha de uma matriz:
 
-matriz_array[:,0] * 2 + matriz_array[:,2] # multiplica a primeia coluna por dois e soma a terceira coluna
+for i in range(len(B)):
+    B[2,i] = 5 - i
+    
+B
+
+# Exemplo de preenchimento de matrizes - Tabela da Tabuada
+# Criação de uma matriz "vazia" (com zeros)
+nrow = 9  # Número de Linhas
+ncol = 10  # Número de Colunas
+matrix = np.zeros([nrow, ncol])
+print(matrix)
+
+# Loops para preenchimento da matriz vazia usando FOR
+for i in range(len(matrix)):
+    for j in range(len(matrix[0])):
+        matrix[i, j] = (i + 1) * (j + 1)
+        
+print(matrix)
+
+'''Crie uma variável beta2 = 0.95'''
+'''Crie uma matriz de zeros com 18 linhas e 2 colunas'''
+'''Faça um loop para preencher a primeira coluna dessa matriz com valores decrescentes
+a partir do beta2 criado, onde a cada linha se reduza 0.05 da linha anterior'''
 
 
-# Criar sequência de números usando linspace do NumPy
-sequencia = np.linspace(0, 1, 11) # Cria uma sequência de 11 número de 0 a 1
-sequencia
-type(sequencia)
 
-# Criar números aleatórios usando do NumPy
-aleatorio = np.random.uniform(0, 1, size = 10)
-aleatorio
-type(aleatorio)
+beta_2 = 0.95
+tabela = np.zeros([18, 2])
+for i in range(len(tabela)):
+    tabela[i, 0] = beta_2 - (i + 1) * 0.05
 
-np.random.normal(0, 1, size = 10)
+
 
 """ REPETIÇÃO / LOOP USANDO FOR """
 # Na repetição utilizando "for", criamos/atualizamos uma variável que percorre
@@ -494,60 +477,36 @@ for i in range(0, 10, 2):
 
 # PRACTICE QUIZ: https://www.coursera.org/learn/ciencia-computacao-python-conceitos/quiz/vPfhP/repeticao-com-for
 
+'''Escreva um codigo que encontre o perıodo t∗ para o qual cˆ1t − cˆ2t 
+troca de sinal para β1s genericos.
 
-##############################################################################
-""" REPETIÇÕES ENCAIXADAS """
+Fixe β2 = 0.95. tem-se que c1+c2 = 2 e 
+c2_t = 2 / (1 + ((1 - beta_1) / (1 - beta_2 ) ) * ( beta_1 / beta_2 )** t )
+(dica: crie uma matriz, pode ser 18x2 para preencher com possiveis valores
+de beta_1 na primeira coluna e os t* para cada beta_1 utilizado'''
 
-# Faremos um loop dentro de outro loop
-i = 0
-j = 0
-while i <= 10:
-    j = 0  # Precisa "resetar" a variável para o próximo loop de row
-    while j <= 10:
-        print(i, "-", j)
-        j += 1  # Equivalente a j = j + 1
-    i += 1  # Equivalente a i = i + 1 | Atenção à identação (no loop de i)
+beta_2 = 0.95  # valor de beta_2 fixado
 
+# Criando e preenchendo matriz com beta_1 e t*
+tabela = np.zeros([18, 2])  # criando matriz de zeros 18 x 2 para preenchimento
 
-# PRACTICE QUIZ: https://www.coursera.org/learn/ciencia-computacao-python-conceitos/quiz/QjXxx/repeticoes-encaixadas
-
-# Exemplo de preenchimento de matrizes - Tabela da Tabuada
-# Criação de uma matriz "vazia" (com zeros)
-nrow = 9  # Número de Linhas
-ncol = 10  # Número de Colunas
-matrix = np.zeros([nrow, ncol])
-print(matrix)
-
-# Loops para preenchimento da matriz vazia usando FOR
-for row in range(len(matrix)):
-    for col in range(len(matrix[0])):
-        matrix[row, col] = (row + 1) * (col + 1)
-        
-print(matrix)
-
-
-# Preenchimento da matriz usando WHILE (mesma dimensão definida acima)
-matrix_while = np.zeros([nrow, ncol])
-print(matrix_while)
-
-# Loops para preenchimento da matriz vazia
-row = 0
-col = 0
-while row < nrow:
-    col = 0  # Preciso "resetar" a variável para o próximo loop de row
-    while col < ncol:
-        matrix_while[row, col] = (row + 1) * (col + 1)
-        col += 1  # Equivalente a col = col + 1
-    row += 1  # Equivalente a row = row + 1 | Atenção à identação (no loop de row)
+# Loop para preenchimento de possíveis \beta_1 < \beta_2 e t* para c1_t - c2_t
+# mudar de sinal (quando c2_t > 1, pois c2_t = 2 - c1_t, no equilíbrio)
+for i in range(len(tabela)):
+    tabela[i, 0] = beta_2 - (i + 1) * 0.05
     
-print(matrix_while)
+    # Calcular consumo inicial do indivíduo 2 (c2_0)
+    t = 0
+    c2_t = - np.inf # um valor pequeno arbitrário para entrar no loop
+    
+    while c2_t < 1:
+        # Como c1_t + c2_t = 2, só precisamos verificar se c2_t > 1 ou c1_t < 1
+        c2_t = 2 / (1 + ((1 - tabela[i,0]) / (1 - beta_2)) * (tabela[i,0] / beta_2) ** t)
+        t += 1
+    tabela[i, 1] = t - 1 # tem que ser t-1 pois o Python não atualiza
+    # automaticamente o valor de c2_t
 
-
-# Comparando ambas matrizes
-matrix_while == matrix  # Comparando cada elemento das matrizes
-matrix_while.all() == matrix.all()  # Comparando as matrizes como um todo
-
-
+print(tabela)
 
 ##############################################################################
 """ GRÁFICOS """
@@ -579,5 +538,17 @@ ax.set_title('Gráfico de $y = 2^x$')  # Título
 plt.show()  # Plot do gráfico com os comandos dados
 
 
+# Criação do gráfico
+fig, ax = plt.subplots()  # Cria a base (em branco) do gráfico
+ax.plot(tabela[:, 0], tabela[:, 1],  # Coluna 0 no eixo x e coluna 1 no y
+        '-o',  # Formato da linha e ponto do gráfico
+        label='$t^*(\\beta_1, \\beta_2)$')  # Descrição da legenda
+ax.legend()  # Faz aparecer a legenda
+ax.set_ylim([0, 15])  # tamanho mínimo e máximo vertical
+ax.set_xlim([0.00, 0.95])  # tamanho mínimo e máximo horizontal
+ax.set_xlabel('$\\beta_1$')  # Descrição do eixo x
+ax.set_ylabel('$t^*(\\beta_1, \\beta_2)$')  # Descrição do eixo y
+ax.set_title('Gráfico de $t^*(\\beta_1, \\beta_2)$ por $\\beta_1$')  # Título
+plt.show()  # Plot do gráfico com os comandos dados
 
 
