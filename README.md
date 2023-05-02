@@ -13,7 +13,8 @@ Entrega Lista 2 - 08/05 - apenas a 2ª questão.
 <br>
 
 ## Resolução Lista I:
-[Resolução Lista I](https://github.com/samuelcruz4/Macroeconomia_I/files/11323450/Resolucao.Lista.I.-.Macro.I.-.Parte.I.pdf)
+[Resolução Lista I](https://github.com/samuelcruz4/Macroeconomia_I/files/11373427/Resolucao.Lista.I.-.Macro.I.-.Parte.I.pdf)
+
 
 
 [Código Python - item f](https://samuelcruz4.github.io/Macroeconomia_I/Lista_1-Python.py)
