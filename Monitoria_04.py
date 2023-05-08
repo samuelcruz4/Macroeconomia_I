@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Exercício 2 itens (c), (d), (e) da Lista 2 de Macroeconomia I (Parte 1) de 2023
-
 """
 
 # Importando os módulos necessários
@@ -11,7 +9,6 @@ import matplotlib.pyplot as plt  # Módulo para fazer gráficos
 
 
 ##############################################################################
-""" Exercício 2 """
 
 # Fazendo as suposições iniciais 
 k_grid = np.linspace(4, 6, 201)  # Possíveis valores de k e k'
