@@ -14,11 +14,19 @@ Entrega Lista 2 - 08/05 - apenas a 2ª questão.
 
 <br>
 
+## Monitoria 08/05
+
+[Código Python](https://github.com/samuelcruz4/Macroeconomia_I/files/11413234/Lista-2-Python-Monitoria.py)
+<br>
+
+<br>
+
 ## Monitoria 06/05
 [Slides](https://github.com/samuelcruz4/Macroeconomia_I/files/11413234/Apresenta__o_Monitoria_3.1.pdf)
 
 
 [Código Python](https://samuelcruz4.github.io/Macroeconomia_I/Monitoria_03.py)
+<br>
 
 ## Resolução Lista I:
 [Resolução Lista I](https://github.com/samuelcruz4/Macroeconomia_I/files/11373427/Resolucao.Lista.I.-.Macro.I.-.Parte.I.pdf)
