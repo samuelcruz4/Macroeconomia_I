@@ -9,8 +9,14 @@ Entrega Lista 1 - 24/04 - apenas a 2ª questão.
 
 Entrega Lista 2 - 08/05 - apenas a 2ª questão. 
 
+Entrega Lista 3 - 17/05 - apenas a 4ª questão. 
+
 ---
 <br>
+
+## Resolução Lista II:
+[Resolução Lista II](https://github.com/samuelcruz4/Macroeconomia_I/files/11472216/Lista2_Macro1.pdf)
+
 
 <br>
 
@@ -21,7 +27,7 @@ Entrega Lista 2 - 08/05 - apenas a 2ª questão.
 
 <br>
 
-## Monitoria 06/05
+## Monitoria 04/05
 [Slides](https://github.com/samuelcruz4/Macroeconomia_I/files/11413234/Apresenta__o_Monitoria_3.1.pdf)
 
 
