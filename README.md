@@ -17,9 +17,10 @@ Entrega Lista 4 - 22/05 - apenas a 1ª questão.
 
 <br>
 
-## Exercício 5 - Lista 4:
+## Resolução - Lista 4:
 
-[Exercício 5](https://github.com/samuelcruz4/Macroeconomia_I/files/11525296/Exercicio.5.pdf)
+[Lista 4](https://github.com/samuelcruz4/Macroeconomia_I/files/11532380/Lista4.pdf)
+
 
 
 
