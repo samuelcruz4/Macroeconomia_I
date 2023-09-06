@@ -17,6 +17,11 @@ Entrega Lista 4 - 22/05 - apenas a 1ª questão.
 
 <br>
 
+## Monitoria 28/07
+
+[Metodo Bissection e Discretização](https://samuelcruz4.github.io/Macroeconomia_I/Monitoria_04.py)
+<br>
+
 ## Resolução - Lista 4:
 
 [Lista 4](https://github.com/samuelcruz4/Macroeconomia_I/files/11532380/Lista4.pdf)
