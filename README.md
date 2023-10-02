@@ -1,5 +1,5 @@
-# Monitoria de Macroeconomia I (2023)
-Professor: Dr. Fernando Barros Jr
+# Monitoria de Macroeconomia I e II (2023)
+Professor: Dr. Fernando Barros Jr, Dr. Jefferson Bertolai
 <br>
 Monitor: Samuel Levi Alves Cruz
 <br>
@@ -16,6 +16,14 @@ Entrega Lista 4 - 22/05 - apenas a 1ª questão.
 ---
 
 <br>
+## Códigos
+[Aiyagari com transições](https://samuelcruz4.github.io/Macroeconomia_I/Aiyagari_transicao.py)
+[Aiyagari Mercados Incompletos](https://samuelcruz4.github.io/Macroeconomia_I/Aiyagaria_incompletos.py)
+[Lista 2](https://samuelcruz4.github.io/Macroeconomia_I/Lista_2_Macro.py)
+[Lista 1](https://samuelcruz4.github.io/Macroeconomia_I/Q2_Lista_1.py)
+
+
+
 
 ## Monitoria 28/07
 
