@@ -21,13 +21,17 @@ Entrega Lista 4 - 22/05 - apenas a 1ª questão.
 
 [Aiyagari com transições](https://samuelcruz4.github.io/Macroeconomia_I/Aiyagari_transicao.py)
 
+
 [Aiyagari Mercados Incompletos](https://samuelcruz4.github.io/Macroeconomia_I/Aiyagaria_incompletos.py)
 
+
 [Lista 2](https://samuelcruz4.github.io/Macroeconomia_I/Lista_2_Macro.py)
+
 
 [Lista 1](https://samuelcruz4.github.io/Macroeconomia_I/Q2_Lista_1.py)
 
 
+<br>
 
 
 ## Monitoria 28/07
